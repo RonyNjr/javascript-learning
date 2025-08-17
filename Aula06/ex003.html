@@ -19,8 +19,10 @@
     <h1>Olá, mundo!</h1>
     <p>Me livrei da maldição</p>
     <script>
-       var nome= window.prompt('Qual e o seu nome?') // vai perguntar o nome...
-       window.alert ('É um prazer te conhecer, ' + nome + '!') // e vai mostrar o nome na tela
+       var n1 = Number.parseFloat(window.prompt('digite um numero: '))  // "Number.parseInt" para numeros Inteiros
+       var n2 = Number.parseFloat(window.prompt('digite outro numero: ')) // "Number.parseFloat" para numeros Reais 
+       var s = n1 + n2 // o + tem Efeito de concatenacao e tambem para adicao 
+       window.alert(`a soma de ${n1} e ${n2} e igual a ${s}`) // template string para concatenar variaveis ${}
     </script>
 </body>
 </html>
