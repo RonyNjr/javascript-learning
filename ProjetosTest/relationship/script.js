@@ -1,4 +1,5 @@
-const inicio = new Date(2024, 10, 26, 17, 40)
+
+ const inicio = new Date(2024, 10, 26, 17, 40)
 // ano, mes (0-11), dia, hora, minuto
 
 function calcularDiferenca(dataInicio, dataAtual) {
